@@ -63,7 +63,7 @@ def menu():
             else:
                 print('Aviso: Nenhum arquivo carregado. Use a opção 1 primeiro.')
         elif opc == '6':
-            s = input('Digite o caminho do arquivo .huff: ').strip()
+            s = input('Digite o caminho do arquivo .batatinha: ').strip()
             descompactar(s)
         elif opc == '7':
             print('Saindo do sistema...')

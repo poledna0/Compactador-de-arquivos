@@ -10,6 +10,7 @@ def contar_frequencias(dados):
     for k in mapa:
         itens.append((k, mapa[k]))
     # Ordena pelo símbolo
+    # bubble sort
     for i in range(len(itens)):
         for j in range(i+1, len(itens)):
             if itens[j][0] < itens[i][0]:
@@ -18,7 +19,7 @@ def contar_frequencias(dados):
 
 def mostrar_frequencias(freqs):
     print("\nTabela de Frequências:")
-    for par in freqs:
+    for par in freqs: 
         s, f = par
         if 32 <= s <= 126:
             ch = "'" + chr(s) + "'"
